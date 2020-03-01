@@ -17,7 +17,6 @@ public class LogController {
     public String logger(String data) {
         log.info("data：" + data);
         return data;
-        return data;
     }
 }
 
