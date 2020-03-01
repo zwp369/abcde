@@ -16,7 +16,9 @@ public class LogController {
     @PostMapping("log")
     public String logger(String data) {
         log.info("data：" + data);
+        log.info("data：" + data);
         return data;
+
     }
 }
 
